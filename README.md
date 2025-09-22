@@ -30,3 +30,4 @@ The notebook will:
 **Assumptions**
 1. Binary variables (e.g., team, day, quarter, department) were dummy encoded to allow the models to interpret them numerically.
 2. Features with extremely skewed distributions were tested in the model although they may have not met the assumptions of normality for linear regression.
+3. The max iterations were set to 20,000 due to 'ConvergenceWarning: Maximum number of iteration reached before convergence' warnings in Python.
